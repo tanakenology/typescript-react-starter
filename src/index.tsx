@@ -14,7 +14,7 @@ import { EnthusiasmAction } from './actions/index';
 const store = createStore<StoreState, EnthusiasmAction, any, any>(enthusiasm, {
   enthusiasmLevel: 1,
   languageName: 'TypeScript'
-  });
+});
 
 ReactDOM.render(
   <Provider store={store}>
